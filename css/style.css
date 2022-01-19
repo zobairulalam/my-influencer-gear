@@ -1,0 +1,53 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* basic stuff */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/* header section */
+
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #3A3A3A;
+    text-decoration: none;
+
+}
+header {
+    color: #3A3A3A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.head{
+    transition: all 0.3s ease 0s;
+}
+.head:hover{
+    color: lightpink;
+    cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li:hover, a:hover{
+    color: lightpink;
+}
+
+/* ----------main section---------- */
+
+/* first section */
+
