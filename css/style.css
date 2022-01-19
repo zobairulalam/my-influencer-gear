@@ -5,8 +5,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: whitesmoke;
+    padding: 30px 10%;
+    /* background-color: whitesmoke; */
+}
+.section{
+    padding-bottom: 10%;
 }
 
 /* header section */
@@ -23,7 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    /* padding: 30px 10%; */
 }
 .head{
     transition: all 0.3s ease 0s;
@@ -51,3 +54,43 @@ header {
 
 /* first section */
 
+.first-section{
+    display: flex;
+}
+.first-section-body{
+    width: 50%;
+}
+.headline{
+font-size: 35px;
+line-height: 1.2em;
+}
+.first-section-body p{
+    font-size: 1.2em;
+}
+button{
+    padding: 9px 25px;
+    font-size: 1.05em;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: lightpink;
+}
+.first-section-img{
+    width: 50%;
+}
+.first-section-img img{
+    /* justify-content: flex-end;
+  align-items: flex-end; */
+  display: flex;
+  margin-left: 250px;
+  /* height: 100vh;  */
+  background-image: url(/images/circle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
