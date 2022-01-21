@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* basic stuff */
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -74,7 +71,7 @@ line-height: 1.2em;
 }
 button{
     padding: 9px 25px;
-    font-size: 1.05em;
+    font-size: 1em;
     color: white;
     background-color: #E02C6D;
     border: none;
@@ -98,6 +95,10 @@ button:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.first-section-img img:hover{
+    transform: rotate(360deg);
+    transition: all 1.8s ease 0s;
 }
 
 /*---------- second section ----------*/
@@ -134,7 +135,7 @@ button:hover{
     background-color: #FFFFFF;
     
     margin: 50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     width: 300px;
     padding: 20px;
     line-height: 30px;
@@ -193,23 +194,17 @@ button:hover{
 /* ---------- footer section ---------- */
 
 footer{
-    /* background-color: #0A0826;
-    width: 100vw;
+    background-color: white;
+    width: 80vw;
+    /* width: 100%; */
     height: auto;
     padding-top: 40px;
-    padding: 0;
-    margin: 0;
-    color: white; */
-    position:relative;
-    left: 0;
-    bottom: 0;
-    font-size: 30px;
-    width: 100%;
-    padding-top: 40px;
+    margin: 0 auto;
+    /* color: white; */
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color: #0A0826;
-    color: white;
-    border: solid;
+    
 }
 .footer-content{
     display: flex;
@@ -219,31 +214,37 @@ footer{
     text-align: center;
 }
 .footer-content h3{
+    color: #E02C6D;
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: .2rem;
 }
 .footer-content p{
     max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+    margin: 10px 0;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 500;
 }
+
 .socials{
     list-style: none;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    margin: 10px 0 30px 0;
+    margin: 0 40px 30px 0;
 }
 .socials li{
     margin: 0 10px;
 }
 .socials a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 .socials a i{
     font-size: 1.1rem;
 }
+
+/* ---------- media queries ---------- */
