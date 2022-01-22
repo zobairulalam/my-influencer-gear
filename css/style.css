@@ -248,3 +248,23 @@ footer{
 }
 
 /* ---------- media queries ---------- */
+
+/* mobile devices */
+@media only screen and (max-width:688px) {
+    
+    .section{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-section{
+            grid-template-columns: repeat(1, 1fr);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+}
