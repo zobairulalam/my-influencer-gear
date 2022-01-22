@@ -7,7 +7,6 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 10px 10%;
-    /* background-color: whitesmoke; */
 }
 .section{
     padding-bottom: 10%;
@@ -86,11 +85,8 @@ button:hover{
     width: 50%;
 }
 .first-section-img img{
-    /* justify-content: flex-end;
-  align-items: flex-end; */
   display: flex;
   margin-left: 250px;
-  /* height: 100vh;  */
   background-image: url(/images/circle.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -135,7 +131,6 @@ button:hover{
     background-color: #FFFFFF;
     
     margin: 50px;
-    /* margin-bottom: 50px; */
     width: 300px;
     padding: 20px;
     line-height: 30px;
@@ -196,11 +191,9 @@ button:hover{
 footer{
     background-color: white;
     width: 80vw;
-    /* width: 100%; */
     height: auto;
     padding-top: 40px;
     margin: 0 auto;
-    /* color: white; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -241,7 +234,6 @@ footer{
 }
 .socials a{
     text-decoration: none;
-    /* color: white; */
 }
 .socials a i{
     font-size: 1.1rem;
